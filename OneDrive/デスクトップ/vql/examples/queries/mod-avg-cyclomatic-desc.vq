@@ -1,0 +1,3 @@
+FIND module
+  ORDER BY quality.complexity.avgCyclomatic DESC
+  LIMIT 15

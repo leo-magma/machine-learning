@@ -1,0 +1,2 @@
+FIND issue
+  WHERE severity == "high"

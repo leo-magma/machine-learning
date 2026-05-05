@@ -1,0 +1,2 @@
+FIND semantic
+  WHERE semanticType == "io"

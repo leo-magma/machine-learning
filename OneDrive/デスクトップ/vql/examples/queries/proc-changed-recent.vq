@@ -1,0 +1,5 @@
+FIND procedure
+  WHERE changedSince("2020-01-01")
+    AND quality.complexity.cyclomatic >= 8
+  ORDER BY changedAt DESC
+  LIMIT 25

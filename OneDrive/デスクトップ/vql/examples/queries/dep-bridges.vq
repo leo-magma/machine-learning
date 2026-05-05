@@ -1,0 +1,5 @@
+FIND procedure
+  WHERE dependency.outgoingCount > 0
+    AND dependency.incomingCount > 0
+  ORDER BY quality.dependency.degree DESC
+  LIMIT 20

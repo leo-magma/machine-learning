@@ -1,0 +1,5 @@
+FIND procedure
+  WHERE quality.complexity.cyclomatic >= 15
+    AND quality.risk.riskScore >= 0.25
+  ORDER BY quality.risk.riskScore DESC
+  LIMIT 15

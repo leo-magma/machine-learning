@@ -1,0 +1,4 @@
+FIND procedure
+  WHERE quality.risk.riskScore >= 0.35
+  ORDER BY quality.risk.riskScore DESC
+  LIMIT 20

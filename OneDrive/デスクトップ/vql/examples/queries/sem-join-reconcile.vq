@@ -1,0 +1,3 @@
+FIND semantic
+  WHERE semanticType == "join"
+  ORDER BY origin.module ASC

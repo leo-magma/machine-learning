@@ -1,0 +1,5 @@
+FIND procedure
+  -- Procedures that call into other modules (cross-module edges).
+  WHERE dependency.crossModuleOutgoingCount > 0
+  ORDER BY dependency.crossModuleOutgoingCount DESC
+  LIMIT 25

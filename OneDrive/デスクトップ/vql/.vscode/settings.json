@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    "*.vql": "sql",
+    "*.vq": "sql"
+  }
+}

@@ -1,0 +1,4 @@
+FIND module
+  -- Modules ranked by estimated dependency coupling degree.
+  ORDER BY quality.dependency.degree DESC
+  LIMIT 12

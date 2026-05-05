@@ -1,0 +1,3 @@
+FIND module
+  ORDER BY quality.dependency.degree DESC
+  LIMIT 15

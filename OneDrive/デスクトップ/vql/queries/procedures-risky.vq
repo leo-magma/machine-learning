@@ -1,0 +1,5 @@
+FIND procedure
+  -- Risk score at or above a moderate threshold (see IR heuristic).
+  WHERE quality.risk.riskScore >= 0.35
+  ORDER BY quality.risk.riskScore DESC
+  LIMIT 20

@@ -1,0 +1,27 @@
+{
+  "name": "vql",
+  "version": "0.1.0",
+  "private": true,
+  "description": "VBA Query Language — parser and in-memory runner (MVP)",
+  "type": "module",
+  "bin": {
+    "vql": "./bin/vql.mjs"
+  },
+  "scripts": {
+    "setup": "npm install && npm run build && npm link",
+    "build": "tsc",
+    "vql": "node bin/vql.mjs",
+    "build-store": "npm run build && node dist/extract/buildSampleStore.js",
+    "build-store:py": "python tools/build-sample-store.py",
+    "demo": "npm run build && node bin/vql.mjs queries/example.vq",
+    "watch-vba": "npm run build && node dist/extract/watchSampleBas.js",
+    "gen-long-samples": "node tools/gen-fin-long-samples.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "typescript": "^5.6.3"
+  }
+}

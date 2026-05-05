@@ -1,0 +1,4 @@
+FIND procedure
+  WHERE dependency.crossModuleOutgoingCount > 0
+  ORDER BY dependency.crossModuleOutgoingCount DESC
+  LIMIT 25
