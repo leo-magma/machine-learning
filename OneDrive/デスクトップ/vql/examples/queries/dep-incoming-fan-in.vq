@@ -1,4 +1,0 @@
-FIND procedure
-  WHERE dependency.incomingCount > 0
-  ORDER BY dependency.incomingCount DESC
-  LIMIT 25

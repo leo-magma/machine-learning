@@ -1,4 +1,0 @@
-FIND procedure
-  WHERE quality.risk.riskScore_delta > 0
-  ORDER BY quality.risk.riskScore_delta DESC
-  LIMIT 20

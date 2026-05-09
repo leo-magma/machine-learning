@@ -1,3 +1,0 @@
-FIND issue
-  WHERE kind == "on_error_resume_next"
-  ORDER BY location.module ASC

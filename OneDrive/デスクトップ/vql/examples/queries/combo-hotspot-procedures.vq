@@ -1,5 +1,0 @@
-FIND procedure
-  WHERE dependency.incomingCount >= 1
-    AND quality.complexity.cyclomatic >= 12
-  ORDER BY dependency.incomingCount DESC
-  LIMIT 15

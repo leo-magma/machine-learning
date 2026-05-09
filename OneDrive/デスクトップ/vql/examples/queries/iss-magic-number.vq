@@ -1,4 +1,0 @@
-FIND issue
-  WHERE kind == "magic_number"
-  ORDER BY severity DESC
-  LIMIT 40

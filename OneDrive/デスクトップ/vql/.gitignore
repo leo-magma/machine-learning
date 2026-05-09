@@ -1,6 +1,0 @@
-report/
-
-node_modules/
-dist/
-*.log
-data/sample-store.json

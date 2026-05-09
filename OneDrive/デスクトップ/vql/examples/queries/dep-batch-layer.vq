@@ -1,3 +1,0 @@
-FIND procedure
-  WHERE module == "FinBatch_EOD"
-  ORDER BY dependency.crossModuleOutgoingCount DESC

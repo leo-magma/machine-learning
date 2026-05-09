@@ -1,3 +1,0 @@
-FIND procedure
-  WHERE module LIKE "Fin%"
-  ORDER BY module ASC

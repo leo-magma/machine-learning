@@ -1,3 +1,0 @@
-FIND semantic
-  WHERE source.sheet LIKE "NOSTRO%"
-  ORDER BY origin.procedure ASC

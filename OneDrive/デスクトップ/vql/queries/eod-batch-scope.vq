@@ -1,4 +1,0 @@
-FIND procedure
-  -- Only procedures defined in the EOD orchestration module.
-  IN module "FinBatch_EOD"
-  ORDER BY name ASC

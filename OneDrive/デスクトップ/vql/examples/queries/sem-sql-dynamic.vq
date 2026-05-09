@@ -1,4 +1,0 @@
-FIND semantic
-  WHERE semanticType == "sql"
-  ORDER BY origin.module ASC
-  LIMIT 80

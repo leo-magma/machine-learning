@@ -1,4 +1,0 @@
-FIND procedure
-  WHERE quality.complexity.cyclomatic >= 18
-  ORDER BY quality.complexity.cyclomatic DESC
-  LIMIT 20

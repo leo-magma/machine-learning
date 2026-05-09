@@ -1,4 +1,0 @@
-FIND procedure
-  WHERE dependency.outgoingCount > 0
-  ORDER BY dependency.outgoingCount DESC
-  LIMIT 40

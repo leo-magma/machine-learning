@@ -1,3 +1,0 @@
-FIND semantic
-  WHERE semanticType == "aggregate"
-    AND operation == "sum"

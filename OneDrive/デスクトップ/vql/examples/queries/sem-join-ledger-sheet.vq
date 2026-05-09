@@ -1,4 +1,0 @@
-FIND semantic
-  WHERE semanticType == "join"
-    AND right.sheet MATCHES "%Subsidiary%"
-  ORDER BY origin.procedure ASC

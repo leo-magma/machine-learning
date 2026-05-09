@@ -1,4 +1,0 @@
-FIND semantic
-  -- One row kind; filter with a small expression language (not full SQL).
-  WHERE semanticType = "aggregate"
-    AND operation == "sum"

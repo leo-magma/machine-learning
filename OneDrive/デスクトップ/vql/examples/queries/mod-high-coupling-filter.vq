@@ -1,3 +1,0 @@
-FIND module
-  WHERE quality.dependency.degree >= 15
-  ORDER BY quality.dependency.degree DESC

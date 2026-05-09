@@ -1,3 +1,0 @@
-FIND semantic
-  ORDER BY origin.module ASC
-  LIMIT 35

@@ -1,3 +1,0 @@
-FIND semantic
-  WHERE semanticType == "lookup"
-    AND operation == "vlookup"

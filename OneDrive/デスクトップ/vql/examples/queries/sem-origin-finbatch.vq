@@ -1,2 +1,0 @@
-FIND semantic
-  WHERE origin.module == "FinBatch_EOD"

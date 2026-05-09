@@ -1,5 +1,0 @@
-FIND semantic
-  -- Heuristic dynamic-SQL / OPENQUERY / MERGE-style semantics from generated finance samples.
-  WHERE semanticType == "sql"
-  ORDER BY origin.module ASC
-  LIMIT 40
